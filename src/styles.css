@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+.texto-titulo {
+    font-family: var(--font-prata);
+    font-size: 40px;
+    font-weight: var(--font-weight-normal);
+    line-height: 72px;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.linha-destaque {
+    display: block;
+    margin: 0 auto;
+}
+
+:root {
+    /* fontes */
+    --fonte-montserrat: 'Montserrat', sans-serif;
+    --fonte-prata: 'Prata', serif;
+
+    /* cores */
+    --cor-primaria: #6278F7;
+    --cor-secundaria: #2E2E2E;
+
+    /* estilo da letra */
+    --fonte-normal: 400;
+    --fonte-negrito: 700;
+}
